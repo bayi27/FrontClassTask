@@ -1,0 +1,41 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  color: #82909a;
+  min-height:100%;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+.footer{
+	height:50px;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	text-align:center;
+}
+#time{
+	position: absolute;
+	top: 4px;
+	right: 0;
+	text-align: center;
+	width:100%;
+}
+a.link:link{
+	color:#DEB887;
+	text-decoration:none;
+	}		/* 未被访问的链接 */
+a.link:visited {
+	color:#DEB887;
+	text-decoration:none;
+	}	/* 已被访问的链接 */
+a.link:hover {
+	color:#556B2F;
+	text-decoration:underline;
+}	/* 鼠标指针移动到链接上 */
+a.link:active {
+	color:#556B2F;
+	text-decoration:none;
+	}	/* 正在被点击的链接 */

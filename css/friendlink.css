@@ -1,0 +1,26 @@
+#h3{
+	top: 165px;
+	left: 480px;
+	position: absolute;
+}
+#friendlink{
+	top: 210px;
+	left: 575px;
+	position: absolute;
+}
+a.friendlink:link{
+	color:#642100;
+	text-decoration:none;
+	}		/* 未被访问的链接 */
+a.friendlink:visited {
+	color:#642100;
+	text-decoration:none;
+	}	/* 已被访问的链接 */
+a.friendlink:hover {
+	color:#272727;
+	text-decoration:underline;
+}	/* 鼠标指针移动到链接上 */
+a.friendlink:active {
+	color:#272727;
+	text-decoration:none;
+}	/* 正在被点击的链接 */

@@ -1,0 +1,96 @@
+#logo{
+	float:left;
+	width:50px;
+	height:50px;
+	margin-right:10px; /*距离右外边距*/
+	top: 55px;
+	left: 450px;
+	position: absolute;
+}
+#h2{
+	top: 56px;
+	left: 515px;
+	position: absolute;
+}
+body{
+	background-repeat:repeat;
+}
+ul#nav li{
+	display:inline;
+} 
+ul#nav li a{
+	display:inline-block;
+	padding: 0px 15px 10px; /*内边距*/
+	line-height:30px;
+ 	font-size:18px;
+}
+.image{
+	top: 230px;
+	left: 380px;
+	position: relative;
+}
+.pic{
+	width: 220px;
+}
+.image img{
+	padding: 10px 10px 15px;
+	background: white;
+	border: 1px solid #ddd;/*底边框*/
+	box-shadow: 2px 2px 3px rgba(50,50,50,0.4);/*加阴影*/
+	-webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; /*过渡*/
+    position: absolute;
+    z-index: 1;
+}
+.image img:hover{
+	box-shadow: 15px 15px 20px rgba(50,50,50,0.4);
+	transform:rotate(0deg) scale(1.20);/*恢复*/
+	-webkit-transform:rotate(0deg) scale(1.20);
+	z-index: 2;
+}
+.pic1{
+    left: 600px;
+    top: 0;
+    transform:rotate(-5deg);
+    -webkit-transform:rotate(-5deg);
+}
+
+.pic2{
+    left: 380px;
+    top: 0;
+    transform:rotate(-20deg);
+    -webkit-transform:rotate(-20deg);
+}
+.pic3{
+    left: 50px;
+    top: 5px;
+    width: 250px;
+    transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+}
+
+.pic4{
+    left: 50px;
+    top: 130px;
+    width: 280px;
+    transform:rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+
+.pic5{
+    left: 550px;
+    top: 150px;
+    width: 350px;
+    transform:rotate(-10deg);
+    -webkit-transform:rotate(-10deg);
+}
+.pic6{
+    left: 280px;
+    top: 150px;
+    width: 290px;
+    transform:rotate(10deg);
+    -webkit-transform:rotate(10deg);
+}

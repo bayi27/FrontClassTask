@@ -1,0 +1,32 @@
+tr{
+	display:none;
+}
+#wordsh2{
+	top: 180px;
+	left: 450px;
+	position: absolute;
+	color: inherit;
+}
+#page{
+	width:500px;
+	margin:0 auto;
+	top: 260px;
+	left: 530px;
+	position: absolute;
+}
+a.wordslink:link{
+	color:#642100;
+	text-decoration:none;
+	}		/* 未被访问的链接 */
+a.wordslink:visited {
+	color:#642100;
+	text-decoration:none;
+	}	/* 已被访问的链接 */
+a.wordslink:hover {
+	color:#272727;
+	text-decoration:underline;
+}	/* 鼠标指针移动到链接上 */
+a.wordslink:active {
+	color:#272727;
+	text-decoration:none;
+}	/* 正在被点击的链接 */
